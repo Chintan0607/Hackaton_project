@@ -34,7 +34,7 @@ def predict():
         from sklearn.metrics import mean_absolute_error,mean_squared_error,mean_squared_log_error,r2_score
 
         # Assuming df is your DataFrame with a 'Timestamp' column
-        df = pd.read_csv(r'D:\praful\praful\project\hackathon\Dataset1.csv')
+        df = pd.read_csv(r'modified_dataset.csv')
         import pandas as pd
         from datetime import datetime
 
